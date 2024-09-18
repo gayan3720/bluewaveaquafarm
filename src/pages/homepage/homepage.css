@@ -1,0 +1,172 @@
+.home {
+  position: relative;
+  max-width: 95%;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 0;
+}
+
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.mission,
+.vision {
+  flex-basis: 48%;
+}
+
+.mission h2,
+.vision h2 {
+  color: #1a3a6e;
+  margin-bottom: 10px;
+}
+
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f8ff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.achievement-item {
+  text-align: center;
+}
+
+.achievement-item h3 {
+  color: #1a3a6e;
+  margin-bottom: 10px;
+}
+
+.achievement-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00a8ff;
+}
+
+.about-preview {
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.about-preview h2 {
+  color: #1a3a6e;
+  margin-bottom: 20px;
+}
+
+.colorful-divider {
+  display: flex;
+  position: relative;
+  height: 50px;
+  background: linear-gradient(135deg, #00a8ff 0%, #9c27b0 100%);
+  clip-path: polygon(0 100%, 0% 0%, 100% 0%, 100% 100%);
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+}
+
+.animated-divider {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #e0f7fa;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.animated-divider img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0 20px 0 20px;
+  transition: transform 0.3s ease, margin 0.3s ease;
+}
+
+/* Moving image away from the pointer on hover */
+.animated-divider img:hover {
+  transform: translateX(calc(var(--x) * -0.3)) translateY(calc(var(--y) * -0.3));
+}
+
+/* Additional animations for continuous effects */
+.animated-divider img {
+  animation: rotate 6s linear infinite, pulse 2s ease-in-out infinite,
+    float 3s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-vision {
+    flex-direction: column;
+  }
+
+  .mission,
+  .vision {
+    margin-bottom: 20px;
+  }
+
+  .achievements {
+    flex-direction: column;
+  }
+
+  .achievement-item {
+    margin-bottom: 20px;
+  }
+
+  .animated-divider {
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .animated-divider img {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+  }
+}
