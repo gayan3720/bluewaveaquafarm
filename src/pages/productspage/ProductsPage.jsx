@@ -5,6 +5,7 @@ import AnimatedButton from "../../components/animatedbutton/AnimatedButton";
 import AnimatedPage from "../../components/animatedpage/AnimatedPage";
 import Modal from "../../components/modal/Modal";
 import { productImages } from "../../product-images";
+import { Helmet } from "react-helmet";
 
 export const filterImage = (images, name) => {
   const result =
@@ -183,6 +184,17 @@ const ProductsPage = () => {
 
   return (
     <AnimatedPage>
+      <Helmet>
+        <title>Our Products</title>
+        <meta name="description" content="Our Products" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Your Open Graph Title" />
+        <meta property="og:description" content="Your Open Graph Description" />
+        <meta
+          property="og:url"
+          content="https://bluewaveaquafarm.com/#/products"
+        />
+      </Helmet>
       <div className="product-page">
         <animated.div style={fadeIn} className="colorful-bar">
           <h1>Our Products</h1>

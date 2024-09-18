@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
 import "./contactpage.css";
 import emailjs from "emailjs-com";
+import { Helmet } from "react-helmet";
 
 const ContactPage = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -64,6 +65,17 @@ const ContactPage = () => {
 
   return (
     <div className="contact-us-page">
+      <Helmet>
+        <title>Contact Us</title>
+        <meta name="description" content="Contact us page" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Your Open Graph Title" />
+        <meta property="og:description" content="Your Open Graph Description" />
+        <meta
+          property="og:url"
+          content="https://bluewaveaquafarm.com/#/contact"
+        />
+      </Helmet>
       <section className="contact-details">
         <animated.div
           style={contactDetailsAnimation}

@@ -6,6 +6,7 @@ import AnimatedPage from "../../components/animatedpage/AnimatedPage";
 import ScrollReveal from "../../components/scrollreveal/ScrollReveal";
 import Logo from "../../assets/images/Logo.png";
 import SriLankaMap from "../../components/srilankamap/SriLankaMap";
+import { Helmet } from "react-helmet";
 
 const AboutPage = () => {
   const pinnedLocations = [
@@ -31,6 +32,17 @@ const AboutPage = () => {
 
   return (
     <AnimatedPage>
+      <Helmet>
+        <title>About Us</title>
+        <meta name="description" content="About us page" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Your Open Graph Title" />
+        <meta property="og:description" content="Your Open Graph Description" />
+        <meta
+          property="og:url"
+          content="https://bluewaveaquafarm.com/#/about"
+        />
+      </Helmet>
       <div className="about">
         <animated.div style={fadeIn} className="colorful-bar">
           <img src={Logo} alt="AquaFarmLogo" className="logo" />

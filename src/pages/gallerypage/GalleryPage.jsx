@@ -9,6 +9,7 @@ import slider1 from "../../assets/images/gallerypage/1.jpg";
 import slider2 from "../../assets/images/gallerypage/2.jpeg";
 import slider3 from "../../assets/images/gallerypage/3.jpg";
 import slider6 from "../../assets/images/gallerypage/6.jpg";
+import { Helmet } from "react-helmet";
 
 const galleryItems = [
   {
@@ -65,6 +66,17 @@ const GalleryPage = () => {
 
   return (
     <div className="gallery-page">
+      <Helmet>
+        <title>Gallery</title>
+        <meta name="description" content="Gallery page" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Your Open Graph Title" />
+        <meta property="og:description" content="Your Open Graph Description" />
+        <meta
+          property="og:url"
+          content="https://bluewaveaquafarm.com/#/gallery"
+        />
+      </Helmet>
       <section className="section_hero">
         <h1>Discover Our Aquatic World</h1>
         <p>

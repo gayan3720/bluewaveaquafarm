@@ -19,6 +19,7 @@ import fishline3 from "../../assets/images/fishes line/fishline3.jpg";
 import fishline4 from "../../assets/images/fishes line/fishline4.jpg";
 import fishline5 from "../../assets/images/fishes line/fishline5.jpg";
 import fishline6 from "../../assets/images/fishes line/fishline6.jpg";
+import { Helmet } from "react-helmet";
 
 const HomePage = () => {
   const { number: customersServed, ref: customersRef } = useCountUp(5000);
@@ -65,6 +66,14 @@ const HomePage = () => {
 
   return (
     <AnimatedPage>
+      <Helmet>
+        <title>Bluewave Aqua</title>
+        <meta name="description" content=" Bluewave Aqua" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Your Open Graph Title" />
+        <meta property="og:description" content="Your Open Graph Description" />
+        <meta property="og:url" content="https://bluewaveaquafarm.com/#/" />
+      </Helmet>
       <div className="home">
         <section className="hero">
           <Slider {...sliderSettings}>
