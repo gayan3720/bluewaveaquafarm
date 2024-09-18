@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.038a2d66.css",
-    "main.js": "/static/js/main.8d3a46a4.js",
+    "main.js": "/static/js/main.6e050ed0.js",
     "static/media/gallery.jpg": "/static/media/gallery.66dce31217c4bed7875f.jpg",
     "static/media/fish1.jpg": "/static/media/fish1.6c1453e0cf8c5d98767a.jpg",
     "static/media/commoncarpfingerlings.jpg": "/static/media/commoncarpfingerlings.7b2e9494ba06585540fd.jpg",
@@ -9,6 +9,7 @@
     "static/media/slider1.jpg": "/static/media/slider1.2dbad2f36eb3e794123f.jpg",
     "static/media/slider6.jpg": "/static/media/slider6.7d6ffba058ea29a8f309.jpg",
     "static/media/slider2.jpg": "/static/media/slider2.0edcf2f6e8029db343b9.jpg",
+    "static/media/1.jpg": "/static/media/1.7b9ad701f83840cc8498.jpg",
     "static/media/slider4.jpg": "/static/media/slider4.819385ac4f2f44ee2453.jpg",
     "static/media/fishline6.jpg": "/static/media/fishline6.e5b8dcecb71e0feb74cf.jpg",
     "static/media/slider5.jpg": "/static/media/slider5.fe91b99855f5896954d9.jpg",
@@ -67,10 +68,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.038a2d66.css.map": "/static/css/main.038a2d66.css.map",
-    "main.8d3a46a4.js.map": "/static/js/main.8d3a46a4.js.map"
+    "main.6e050ed0.js.map": "/static/js/main.6e050ed0.js.map"
   },
   "entrypoints": [
     "static/css/main.038a2d66.css",
-    "static/js/main.8d3a46a4.js"
+    "static/js/main.6e050ed0.js"
   ]
 }
