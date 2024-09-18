@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.038a2d66.css",
-    "main.js": "/static/js/main.6e050ed0.js",
+    "main.js": "/static/js/main.9aa363c6.js",
     "static/media/gallery.jpg": "/static/media/gallery.66dce31217c4bed7875f.jpg",
     "static/media/fish1.jpg": "/static/media/fish1.6c1453e0cf8c5d98767a.jpg",
     "static/media/commoncarpfingerlings.jpg": "/static/media/commoncarpfingerlings.7b2e9494ba06585540fd.jpg",
@@ -19,6 +19,7 @@
     "static/media/Logo.png": "/static/media/Logo.bfd5f840a78350312ac7.png",
     "static/media/darkgreentetra.jpg": "/static/media/darkgreentetra.97269790f233d2e6c801.jpg",
     "static/media/fishline5.jpg": "/static/media/fishline5.57f354707cdb94a40c4c.jpg",
+    "static/media/4.jpg": "/static/media/4.d905f5e6af76fc5f2be0.jpg",
     "static/media/catlafingerlings.jpg": "/static/media/catlafingerlings.6fea0920fd53e6e7388e.jpg",
     "static/media/staurogynerepense.jpg": "/static/media/staurogynerepense.42744a0dba9b379b16b8.jpg",
     "static/media/rohufingerlings.jpg": "/static/media/rohufingerlings.78d3b9b19d643e9a2b8f.jpg",
@@ -68,10 +69,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.038a2d66.css.map": "/static/css/main.038a2d66.css.map",
-    "main.6e050ed0.js.map": "/static/js/main.6e050ed0.js.map"
+    "main.9aa363c6.js.map": "/static/js/main.9aa363c6.js.map"
   },
   "entrypoints": [
     "static/css/main.038a2d66.css",
-    "static/js/main.6e050ed0.js"
+    "static/js/main.9aa363c6.js"
   ]
 }
