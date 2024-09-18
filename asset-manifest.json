@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.038a2d66.css",
-    "main.js": "/static/js/main.145fba59.js",
+    "main.js": "/static/js/main.ad65f8c3.js",
     "static/media/gallery.jpg": "/static/media/gallery.66dce31217c4bed7875f.jpg",
     "static/media/fish1.jpg": "/static/media/fish1.6c1453e0cf8c5d98767a.jpg",
     "static/media/commoncarpfingerlings.jpg": "/static/media/commoncarpfingerlings.7b2e9494ba06585540fd.jpg",
@@ -18,12 +18,13 @@
     "static/media/tricolorangel.jpg": "/static/media/tricolorangel.b60e9c43129e50d4dc72.jpg",
     "static/media/Logo.png": "/static/media/Logo.bfd5f840a78350312ac7.png",
     "static/media/darkgreentetra.jpg": "/static/media/darkgreentetra.97269790f233d2e6c801.jpg",
+    "static/media/3.jpg": "/static/media/3.197652578774f57be3f4.jpg",
     "static/media/fishline5.jpg": "/static/media/fishline5.57f354707cdb94a40c4c.jpg",
     "static/media/4.jpg": "/static/media/4.d905f5e6af76fc5f2be0.jpg",
     "static/media/catlafingerlings.jpg": "/static/media/catlafingerlings.6fea0920fd53e6e7388e.jpg",
+    "static/media/2.jpeg": "/static/media/2.56bbcf3861201b9efb95.jpeg",
     "static/media/staurogynerepense.jpg": "/static/media/staurogynerepense.42744a0dba9b379b16b8.jpg",
     "static/media/rohufingerlings.jpg": "/static/media/rohufingerlings.78d3b9b19d643e9a2b8f.jpg",
-    "static/media/2.jpeg": "/static/media/2.80005ed69ac034918820.jpeg",
     "static/media/fishline4.jpg": "/static/media/fishline4.5c69a9200c85abb2b274.jpg",
     "static/media/anubiasbarteri.webp": "/static/media/anubiasbarteri.aea7068ba3a055ee575d.webp",
     "static/media/platinumangel.jpg": "/static/media/platinumangel.e8c66afe61e9a9eb9a7d.jpg",
@@ -70,10 +71,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.038a2d66.css.map": "/static/css/main.038a2d66.css.map",
-    "main.145fba59.js.map": "/static/js/main.145fba59.js.map"
+    "main.ad65f8c3.js.map": "/static/js/main.ad65f8c3.js.map"
   },
   "entrypoints": [
     "static/css/main.038a2d66.css",
-    "static/js/main.145fba59.js"
+    "static/js/main.ad65f8c3.js"
   ]
 }
