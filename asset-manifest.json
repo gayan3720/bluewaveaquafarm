@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9630c9db.css",
-    "main.js": "/static/js/main.f0e3f2b3.js",
+    "main.js": "/static/js/main.5156b439.js",
     "static/media/fish1.jpg": "/static/media/fish1.6c1453e0cf8c5d98767a.jpg",
     "static/media/commoncarpfingerlings.jpg": "/static/media/commoncarpfingerlings.7b2e9494ba06585540fd.jpg",
     "static/media/rotellaaquaticplant.webp": "/static/media/rotellaaquaticplant.931bbd68a96e2439b1dc.webp",
@@ -71,10 +71,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.9630c9db.css.map": "/static/css/main.9630c9db.css.map",
-    "main.f0e3f2b3.js.map": "/static/js/main.f0e3f2b3.js.map"
+    "main.5156b439.js.map": "/static/js/main.5156b439.js.map"
   },
   "entrypoints": [
     "static/css/main.9630c9db.css",
-    "static/js/main.f0e3f2b3.js"
+    "static/js/main.5156b439.js"
   ]
 }
