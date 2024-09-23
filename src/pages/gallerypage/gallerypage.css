@@ -7,6 +7,7 @@
 
 .section_hero {
   margin-bottom: 40px;
+  background: url("../../../public/gallery.jpg") no-repeat center center/cover;
   text-align: center;
   padding: 50px;
   background: transparent;
@@ -82,4 +83,20 @@
 .company-overview p {
   margin: 10px 0;
   line-height: 1.6;
+}
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .hero img {
+    width: 100%;
+    height: 200px;
+  }
 }

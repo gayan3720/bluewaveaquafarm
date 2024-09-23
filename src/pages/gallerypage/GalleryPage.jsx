@@ -102,7 +102,7 @@ const GalleryPage = () => {
           </animated.div>
         ))}
       </section>
-      <section className="section_hero">
+      <section className="hero">
         <Slider {...sliderSettings}>
           {sliderImages.map((img, index) => (
             <div key={index}>
@@ -159,7 +159,6 @@ const GalleryPage = () => {
           <br />
           <p>Closed-loop water systems to minimize water usage.</p>
           <p>
-            {" "}
             Environmentally friendly waste management solutions and recycling
             programs.
           </p>
