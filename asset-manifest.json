@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9630c9db.css",
-    "main.js": "/static/js/main.5156b439.js",
+    "main.css": "/static/css/main.a237543b.css",
+    "main.js": "/static/js/main.d3e7cb34.js",
+    "static/media/gallery.jpg": "/static/media/gallery.66dce31217c4bed7875f.jpg",
     "static/media/fish1.jpg": "/static/media/fish1.6c1453e0cf8c5d98767a.jpg",
     "static/media/commoncarpfingerlings.jpg": "/static/media/commoncarpfingerlings.7b2e9494ba06585540fd.jpg",
     "static/media/rotellaaquaticplant.webp": "/static/media/rotellaaquaticplant.931bbd68a96e2439b1dc.webp",
@@ -70,11 +71,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.9630c9db.css.map": "/static/css/main.9630c9db.css.map",
-    "main.5156b439.js.map": "/static/js/main.5156b439.js.map"
+    "main.a237543b.css.map": "/static/css/main.a237543b.css.map",
+    "main.d3e7cb34.js.map": "/static/js/main.d3e7cb34.js.map"
   },
   "entrypoints": [
-    "static/css/main.9630c9db.css",
-    "static/js/main.5156b439.js"
+    "static/css/main.a237543b.css",
+    "static/js/main.d3e7cb34.js"
   ]
 }
