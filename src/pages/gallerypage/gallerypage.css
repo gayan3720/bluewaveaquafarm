@@ -7,10 +7,10 @@
 
 .section_hero {
   margin-bottom: 40px;
-  background: url("../../../public/gallery.jpg") no-repeat center center/cover;
+  background: url("../../assets/images/gallerypage/gallery.jpg") no-repeat
+    center center/cover;
   text-align: center;
   padding: 50px;
-  background: transparent;
   color: cornsilk;
 }
 
